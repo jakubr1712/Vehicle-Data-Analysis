@@ -1,10 +1,3 @@
-from plots import (
-    average_vehicle_range_chart,
-    brand_share_chart,
-    map_state_vehicles,
-    range_vs_price_chart,
-)
-
 from functions import (
     average_vehicle_range_by_make,
     cafv_filter,
@@ -19,6 +12,12 @@ from functions import (
     vehicle_price_analysis,
 )
 from load_data import fetch_state_data, fetch_vehicle_data, load_data
+from plots import (
+    average_vehicle_range_chart,
+    brand_share_chart,
+    map_state_vehicles,
+    range_vs_price_chart,
+)
 
 states_api_url = 'https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/georef-united-states-of-america-state-millesime/records?limit=60&refine=ste_type%3A%22state%22&refine=year%3A%222022%22'
 
