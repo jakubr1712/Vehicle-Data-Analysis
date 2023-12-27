@@ -13,9 +13,13 @@ This Python script is designed to perform various data analysis tasks on vehicle
 ### Data Visualization
 
 - Generates a scatter plot on a U.S. map to visualize vehicle counts by state.
+  ![Brand Share Bar Chart](imgs/3.png)
 - Creates bar charts to show the average electric vehicle range by make and type.
+  ![Scatter Plot](imgs/1.png)
 - Produces a bar chart to display the share of vehicle brands in the dataset.
+  ![Bar Charts](imgs/2.png)
 - Generates a scatter plot to analyze the relationship between electric range and vehicle base MSRP.
+  ![Electric Range vs. MSRP Scatter Plot](imgs/4.png)
 
 ### Analytical Functions
 
